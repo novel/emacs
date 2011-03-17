@@ -2,10 +2,8 @@
 ;; Visual Nicities
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (require 'color-theme)
-(load-library "ryan-color-theme")
-(global-font-lock-mode 1)
 (color-theme-initialize)
-(color-theme-ryan)
+(color-theme-gray30)
 ;Show column numbers
 (column-number-mode 1)
 (setq-default fill-column 72)
